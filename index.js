@@ -107,3 +107,10 @@ function absoluteNineteen(val){
     }
 }
 console.log(absoluteNineteen(-5));
+
+function switchLetters(a_string){
+    let an_array = a_string.split("");
+    let reversed = an_array.reverse();
+    console.log(reversed.join(""))
+}
+switchLetters("apple")
