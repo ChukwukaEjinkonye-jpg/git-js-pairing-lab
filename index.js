@@ -90,3 +90,10 @@ function isLeapYear(year){
     }
 }
 console.log(isLeapYear(4000));
+
+function getExtention(file_name){
+    let words = file_name.split(".")
+    console.log("Test get extention: " + "." + words[1])
+}
+console.log("Test get extention: ")
+getExtention("titular.png")
