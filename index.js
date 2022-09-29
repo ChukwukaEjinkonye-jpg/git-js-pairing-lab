@@ -97,3 +97,13 @@ function getExtention(file_name){
 }
 console.log("Test get extention: ")
 getExtention("titular.png")
+
+function absoluteNineteen(val){
+    let abs = val - 19;
+    if (val > 19){
+        return abs * 3;
+    } else {
+        return Math.abs(abs);
+    }
+}
+console.log(absoluteNineteen(-5));
