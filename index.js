@@ -71,3 +71,7 @@ function largest(x, y, z){
     }
 } 
 console.log(largest(4, 6, 8));
+
+let date = Date()
+let time = date.split(" ")
+console.log(time[4])
