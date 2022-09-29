@@ -60,3 +60,14 @@ console.log(triangleArea(6,8));
 function betweenTwentyAndFourty(num){
     return num >= 20 && num <= 40
 }
+
+function largest(x, y, z){
+    if (x > y && x > z){
+        return x;
+    } else if (y > x && y > z){
+        return y;
+    } else {
+        return z;
+    }
+} 
+console.log(largest(4, 6, 8));
