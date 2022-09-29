@@ -55,3 +55,8 @@ function triangleArea(base,height){
     return base * height * 0.5;
 }
 console.log(triangleArea(6,8));
+
+
+function betweenTwentyAndFourty(num){
+    return num >= 20 && num <= 40
+}
