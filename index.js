@@ -50,3 +50,8 @@ console.log(add(2,2));
 function isNegative(num){
     return num < 0
 }
+
+function triangleArea(base,height){
+    return base * height * 0.5;
+}
+console.log(triangleArea(6,8));
